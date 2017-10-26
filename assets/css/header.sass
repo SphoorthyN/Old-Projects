@@ -1,0 +1,63 @@
+/*************************************          HEADER STYLE          *************************************/
+
+.small-bold
+    color: black
+    text-decoration: none
+    text-transform: uppercase
+    font:
+        weight: 600
+        family: Calibri Light
+        size: 1em
+
+body
+    margin: 0
+    padding: 0
+
+header
+    height: 450px
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url('../img/full-water.png')
+    background-size: cover
+
+    .logo
+        height: 50px
+        width: 50px
+        float: left
+        margin: 1em 0 0 1em
+        opacity: 0.6
+
+    nav
+        float: right
+        margin: 2em 1em 0 0
+        a
+            display: inline-block
+            margin-left: .8em
+            @extend .small-bold
+            &:hover
+                color: #fff
+
+    h1
+        font:
+            size: 72px
+            weight: 700
+        color: white
+        text-transform: uppercase
+        letter-spacing: .05em
+        text-align: center
+        padding-top: 90px
+        margin-bottom: 0.3em
+        clear: both
+
+        span
+            display: inline-block
+            padding: 0.1em 0.4em
+            border: white solid 10px
+            border-radius: 10px
+
+    .subtitle
+        text-align: center
+        color: white
+        font:
+            weight: 700
+        text-transform: uppercase
+        letter-spacing: 0.5em
+        line-height: 1em

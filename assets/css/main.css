@@ -1,3 +1,11 @@
+.small-bold, header nav a, footer .locker .content-wrap a, footer .locker .content-wrap .copyright {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Calibri Light;
+  font-size: 1em; }
+
 /*************************************          HEADER STYLE          ************************************ */
 .small-bold, header nav a, footer .locker .content-wrap a, footer .locker .content-wrap .copyright {
   color: black;
@@ -8,8 +16,8 @@
   font-size: 1em; }
 
 body {
-  margin: 0px;
-  padding: 0px; }
+  margin: 0;
+  padding: 0; }
 
 header {
   height: 450px;
@@ -68,7 +76,7 @@ footer {
       float: left; }
     footer .locker .content-wrap {
       float: left;
-      margin: 0.5em 0px 0.3em 20px; }
+      margin: 0.5em 0 0.3em 20px; }
       footer .locker .content-wrap a {
         margin-right: 0.4em;
         color: #393939;
