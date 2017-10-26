@@ -3,7 +3,7 @@
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  font-family: Calibri Light;
+    font-family: "Calibri Light";
   font-size: 1em; }
 
 /*************************************          HEADER STYLE          ************************************ */
@@ -50,8 +50,8 @@ header {
     header h1 span {
       display: inline-block;
       padding: 0.1em 0.4em;
-      border: white solid 10px;
-      border-radius: 10px; }
+        border: white solid 10px;
+    }
   header .subtitle {
     text-align: center;
     color: white;
@@ -59,6 +59,20 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.5em;
     line-height: 1em; }
+
+section.about {
+    max-width: 49em;
+    margin: 0 auto;
+}
+
+section.about h3 {
+    color: #215f72;
+    text-align: center;
+}
+
+section.about .face-contain {
+    display: flex;
+}
 
 /*************************************          FOOTER STYLE          ************************************ */
 footer {
@@ -74,6 +88,10 @@ footer {
       height: 50px;
       width: 50px;
       float: left; }
+
+footer .locker .logo svg {
+    fill: #215f72;
+}
     footer .locker .content-wrap {
       float: left;
       margin: 0.5em 0 0.3em 20px; }
