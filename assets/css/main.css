@@ -1,0 +1,85 @@
+/*************************************          HEADER STYLE          ************************************ */
+.small-bold, header nav a, footer .locker .content-wrap a, footer .locker .content-wrap .copyright {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Calibri Light;
+  font-size: 1em; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  height: 450px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/full-water.png");
+  background-size: cover; }
+  header .logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 1em 0 0 1em;
+    opacity: 0.6; }
+  header nav {
+    float: right;
+    margin: 2em 1em 0 0; }
+    header nav a {
+      display: inline-block;
+      margin-left: 0.8em; }
+      header nav a:hover {
+        color: #fff; }
+  header h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 0.3em;
+    clear: both; }
+    header h1 span {
+      display: inline-block;
+      padding: 0.1em 0.4em;
+      border: white solid 10px;
+      border-radius: 10px; }
+  header .subtitle {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    line-height: 1em; }
+
+/*************************************          FOOTER STYLE          ************************************ */
+footer {
+  background: url("../img/full-water.png") no-repeat top;
+  background-size: cover; }
+  footer .locker {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 1em;
+    clear: both;
+    background-size: cover; }
+    footer .locker .logo {
+      height: 50px;
+      width: 50px;
+      float: left; }
+    footer .locker .content-wrap {
+      float: left;
+      margin: 0.5em 0px 0.3em 20px; }
+      footer .locker .content-wrap a {
+        margin-right: 0.4em;
+        color: #393939;
+        font-size: 0.85em;
+        display: inline-block; }
+        footer .locker .content-wrap a:hover {
+          color: #000; }
+      footer .locker .content-wrap .copyright {
+        margin: 0.2em 0 0;
+        letter-spacing: 0.14em;
+        font-size: 0.675em;
+        color: #444444; }
+
+/*# sourceMappingURL=main.css.map */
