@@ -1,4 +1,4 @@
-.small-bold, header nav a, footer .locker .content-wrap a, footer .locker .content-wrap .copyright {
+.small-bold, header nav a, section.about h3, footer .locker .content-wrap a, footer .locker .content-wrap .copyright {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
@@ -7,7 +7,7 @@
   font-size: 1em; }
 
 /*************************************          HEADER STYLE          ************************************ */
-.small-bold, header nav a, footer .locker .content-wrap a, footer .locker .content-wrap .copyright {
+.small-bold, header nav a, section.about h3, footer .locker .content-wrap a, footer .locker .content-wrap .copyright {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
@@ -65,8 +65,8 @@ footer {
   background: url("../img/full-water.png") no-repeat top;
   background-size: cover; }
   footer .locker {
-    padding-top: 30px;
-    padding-bottom: 80px;
+      padding-top: 25px;
+      padding-bottom: 70px;
     padding-left: 1em;
     clear: both;
     background-size: cover; }
@@ -89,5 +89,10 @@ footer {
         letter-spacing: 0.14em;
         font-size: 0.675em;
         color: #444444; }
+
+body {
+    margin: 0;
+    padding: 0;
+}
 
 /*# sourceMappingURL=main.css.map */
