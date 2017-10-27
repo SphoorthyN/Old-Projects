@@ -3,7 +3,7 @@
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-    font-family: "Calibri Light";
+  font-family: "Calibri Light";
   font-size: 1em; }
 
 /*************************************          HEADER STYLE          ************************************ */
@@ -50,8 +50,8 @@ header {
     header h1 span {
       display: inline-block;
       padding: 0.1em 0.4em;
-        border: white solid 10px;
-    }
+      border: white solid 10px;
+      padding: 0 10px; }
   header .subtitle {
     text-align: center;
     color: white;
@@ -61,26 +61,100 @@ header {
     line-height: 1em; }
 
 section.about {
-    max-width: 49em;
-    margin: 0 auto;
-}
-
-section.about h3 {
+  max-width: 49em;
+  margin: 0 auto; }
+  section.about h3 {
     color: #215f72;
-    text-align: center;
-}
-
-section.about .face-contain {
+    text-align: center; }
+  section.about .face-contain {
     display: flex;
-}
+    margin: 0 auto;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between; }
+    section.about .face-contain .face-img {
+      width: 91px;
+      height: 91px;
+      border-radius: 50%;
+      background-color: pink;
+      order: 3; }
+    section.about .face-contain .icon-pencil {
+      order: 1; }
+    section.about .face-contain .icon-mouse {
+      order: 2; }
+    section.about .face-contain .icon-browser {
+      order: 4; }
+    section.about .face-contain .icon-video {
+      order: 5; }
+  @media screen and (max-width: 550px) {
+    section.about .face-contain {
+      display: block;
+      text-align: center; }
+      section.about .face-contain .face-img {
+        text-align: center;
+        margin: 0 auto 15px auto; }
+      section.about .face-contain [class^="icon-"] {
+        display: inline-flex;
+        margin: 10px;
+        align-items: center; } }
+  section.about .text {
+    text-align: center;
+    padding: 0 15px; }
+  section.about .skill-lockup {
+    max-width: 700px;
+    margin: 60px auto;
+    color: #215f72;
+    content: "";
+    display: table;
+    clear: both; }
+    section.about .skill-lockup .skill-unit {
+      width: 350px;
+      float: left; }
+      section.about .skill-lockup .skill-unit .skill-icons .outer-stat {
+        height: 13px;
+        width: 340px;
+        background-color: transparent;
+        margin: 5px 10px 0 0; }
+        section.about .skill-lockup .skill-unit .skill-icons .outer-stat .inner-stat-1 {
+          height: inherit;
+          width: 170px;
+          background-color: #215f72; }
+        section.about .skill-lockup .skill-unit .skill-icons .outer-stat .inner-stat-2 {
+          height: inherit;
+          width: 238px;
+          background-color: #215f72; }
+        section.about .skill-lockup .skill-unit .skill-icons .outer-stat .inner-stat-3 {
+          height: inherit;
+          width: 204px;
+          background-color: #215f72; }
+        section.about .skill-lockup .skill-unit .skill-icons .outer-stat .inner-stat-4 {
+          height: inherit;
+          width: 102px;
+          background-color: #215f72; }
+        section.about .skill-lockup .skill-unit .skill-icons .outer-stat .inner-stat-5 {
+          height: inherit;
+          width: 272px;
+          background-color: #215f72; }
+        section.about .skill-lockup .skill-unit .skill-icons .outer-stat .inner-stat-6 {
+          height: inherit;
+          width: 227.8px;
+          background-color: #215f72; }
+        section.about .skill-lockup .skill-unit .skill-icons .outer-stat .inner-stat-7 {
+          height: inherit;
+          width: 306px;
+          background-color: #215f72; }
+        section.about .skill-lockup .skill-unit .skill-icons .outer-stat .inner-stat-8 {
+          height: inherit;
+          width: 204px;
+          background-color: #215f72; }
 
 /*************************************          FOOTER STYLE          ************************************ */
 footer {
   background: url("../img/full-water.png") no-repeat top;
   background-size: cover; }
   footer .locker {
-      padding-top: 25px;
-      padding-bottom: 70px;
+    padding-top: 25px;
+    padding-bottom: 70px;
     padding-left: 1em;
     clear: both;
     background-size: cover; }
@@ -88,10 +162,8 @@ footer {
       height: 50px;
       width: 50px;
       float: left; }
-
-footer .locker .logo svg {
-    fill: #215f72;
-}
+      footer .locker .logo svg {
+        fill: #215f72; }
     footer .locker .content-wrap {
       float: left;
       margin: 0.5em 0 0.3em 20px; }
@@ -109,8 +181,7 @@ footer .locker .logo svg {
         color: #444444; }
 
 body {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
