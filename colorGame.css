@@ -1,0 +1,61 @@
+body {
+  background-color: #484848;
+  color: white;
+  font-family: "Calibri Light", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  transition: ease 0.5s; }
+  body .container {
+    max-width: 600px;
+    padding-top: 10px;
+    margin: 0 auto; }
+    body .container .square {
+      width: 30%;
+      padding-bottom: 30%;
+      border-radius: 15%;
+      -webkit-box-shadow: 0 0 20px #2c2c2c;
+      -moz-box-shadow: 0 0 20px #2c2c2c;
+      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.76);
+      float: left;
+      margin: 1.6666666667%; }
+  body h1 {
+    text-align: center;
+    padding: 1% 0 1% 0;
+    margin: 0 auto; }
+  body .backGround {
+    opacity: 0;
+    -webkit-transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease-in-out 0.5s; }
+  body .opaque {
+    opacity: 1;
+    -webkit-transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s; }
+  body .options {
+    display: flex;
+    justify-content: center;
+    background-color: white; }
+    body .options #options-inside {
+      align-items: stretch;
+      display: flex;
+      width: 570px;
+      justify-content: space-between;
+      color: black; }
+      body .options #options-inside #right-option {
+        display: flex;
+        width: fit-content;
+        flex-direction: row;
+        justify-content: flex-end; }
+      body .options #options-inside p {
+        margin: 0 auto;
+        padding: 8px 0; }
+      body .options #options-inside #left-option {
+        display: flex; }
+        body .options #options-inside #left-option #reset {
+          padding: 0 6.5535px; }
+
+/*# sourceMappingURL=colorGame.css.map */
